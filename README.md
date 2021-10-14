@@ -32,7 +32,7 @@ There are two possible ways of running the application
 **Note:** You should comment the line 
 
 ```
-public static String appUrl = "https://e-clinic-isamrs.herokuapp.com/"; // za deployment
+public static String appUrl = "https://e-clinic-isamrs.herokuapp.com/"; // for deployment
 ```
 
 and uncomment this one:
