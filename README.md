@@ -38,7 +38,7 @@ public static String appUrl = "https://e-clinic-isamrs.herokuapp.com/"; // for d
 and uncomment this one:
 
 ```
-//    public static String appUrl = "http://localhost"; // za development
+//    public static String appUrl = "http://localhost"; // for development
 ```
 
 Start backend and the frontend.
