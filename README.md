@@ -1,5 +1,16 @@
-# eClinic
-[![Build Status](https://travis-ci.com/ISAMRST07/MRSISA2020_T07.svg?branch=databaseDev)](https://travis-ci.com/ISAMRST07/MRSISA2020_T07)
+# E-Clinic
+
+* Website for clinical center management.
+* Some of the features:
+  * User(patient) registration and email verification.
+  * Patients can request/cancel an appointment/examination.
+  * Clinic administrator can define examination types, price list, free appointment slots, approve user registrations, approve doctor/nurse vacation requests, reserve clinic rooms for appointments...
+  * Doctor/Nurse can view their working schedule and appointments in a calendar.
+  * Doctor can fill patients examination report and prescribe recipes  which nurse needs to verify.
+  * Doctor can review and update patients medical record (height, weight, allergies, blood type, appointment reports )
+  * Clinic administrator can register new doctors and nurses.
+  * Clinic administrator can view business report.
+    
 ## Technologies used
 
 * MySQL
@@ -43,9 +54,3 @@ The recommended way of installaation is by running:
 mvn clean install
 mvn --projects backend spring-boot:run
 ```
-
-## Team members
-
-* [Gegić Haris](https://github.com/gegic "gegic")
-* [Mujo Alen](https://github.com/alen1010 "alen1010")
-* [Manojlović Damjan](https://github.com/Damjan032 "Damjan032")
